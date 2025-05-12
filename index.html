@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta tu Horóscopo</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f9f9f9; text-align: center; }
+    input { padding: 0.5rem; font-size: 1rem; }
+    button { padding: 0.5rem 1rem; font-size: 1rem; margin-left: 1rem; }
+    .mensaje { margin-top: 1.5rem; font-size: 1.2rem; opacity: 1; transition: opacity 2s; }
+    .oculto { display: none; }
+    .fade-out { opacity: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Consulta tu Horóscopo</h1>
+    <input type="text" id="fechaNacimiento" placeholder="DD-MM-AAAA">
+    <button id="btnConsultar" disabled>Consultar</button>
+    <div id="mensajeHoroscopo" class="mensaje oculto"></div>
+  </main>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
