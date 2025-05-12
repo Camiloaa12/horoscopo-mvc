@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.mensaje {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+.oculto {
+  display: none;
+}
+
+.fade-out {
+  opacity: 0;
+}
